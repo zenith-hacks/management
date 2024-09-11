@@ -9,5 +9,5 @@
 	export let data: PageData;
 </script>
 
-<ModeWatcher />
+<ModeWatcher></ModeWatcher>
 <slot></slot>
