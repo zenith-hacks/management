@@ -10,8 +10,10 @@
 	export let data: PageData;
 </script>
 
-<Header />
 <ModeWatcher></ModeWatcher>
-<main class="font-sans">
-	<slot></slot>
-</main>
+<div class="font-sans">
+	<Header />
+	<main>
+		<slot></slot>
+	</main>
+</div>
