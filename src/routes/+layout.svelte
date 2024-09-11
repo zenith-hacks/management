@@ -3,8 +3,11 @@
 	import '@fontsource-variable/space-grotesk';
 	import '../app.css';
 
+	import { ModeWatcher } from 'mode-watcher';
+
 	import type { PageData } from './$types';
 	export let data: PageData;
 </script>
 
+<ModeWatcher />
 <slot></slot>
