@@ -11,9 +11,9 @@
 </script>
 
 <ModeWatcher></ModeWatcher>
-<div class="font-sans">
+<div class="flex h-screen flex-col font-sans">
 	<Header />
-	<main>
+	<main class="flex-1 overflow-y-auto">
 		<slot></slot>
 	</main>
 </div>

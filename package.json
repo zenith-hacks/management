@@ -46,6 +46,7 @@
 		"@fontsource-variable/instrument-sans": "^5.0.7",
 		"@fontsource-variable/space-grotesk": "^5.0.20",
 		"lucide-svelte": "^0.439.0",
-		"mode-watcher": "^0.4.1"
+		"mode-watcher": "^0.4.1",
+		"simple-icons": "^13.9.0"
 	}
 }

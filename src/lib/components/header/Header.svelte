@@ -23,7 +23,6 @@
 			<a href="/profile" class={linkClasses}>Profile</a>
 			<button on:click={() => signOut()} class="transition hover:text-red-400">Sign out</button>
 		{:else}
-			<button on:click={() => signIn()}>Sign up</button>
 			<button on:click={() => signIn()}>Sign in</button>
 		{/if}
 	</div>
