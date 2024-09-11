@@ -21,8 +21,8 @@ const config = {
 		},
 		extend: {
 			fontFamily: {
-				sans: ['Instrument\\ Sans', ...fontFamily.sans],
-				grotesk: ['Space Grotesk', ...fontFamily.sans]
+				sans: ['Instrument Sans Variable', ...fontFamily.sans],
+				grotesk: ['Space Grotesk Variable', 'lArial', ...fontFamily.sans]
 			}
 		}
 	},
